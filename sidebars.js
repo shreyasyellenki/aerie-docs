@@ -82,6 +82,7 @@ const sidebars = {
             'tutorials/external-events/creating-an-external-source',
             'tutorials/external-events/uploading-an-external-source',
             'tutorials/external-events/associating-derivation-groups',
+            'tutorials/external-events/creating-a-scheduling-goal-with-external-events',
           ],
         },
       ],
@@ -160,9 +161,9 @@ const sidebars = {
           label: 'External Events',
           link: {
             id: 'planning/external-events/introduction',
-            type: 'doc'
+            type: 'doc',
           },
-          items: ['planning/external-events/external-events-attributes']
+          items: ['planning/external-events/external-events-attributes'],
         },
         {
           type: 'category',
@@ -197,7 +198,7 @@ const sidebars = {
       label: 'Scheduling & Constraints',
       link: {
         id: 'scheduling-and-constraints/introduction',
-        type: 'doc'
+        type: 'doc',
       },
       items: [
         'scheduling-and-constraints/management',
@@ -206,7 +207,7 @@ const sidebars = {
           label: 'Procedural',
           link: {
             id: 'scheduling-and-constraints/procedural/introduction',
-            type: 'doc'
+            type: 'doc',
           },
           items: [
             'scheduling-and-constraints/procedural/getting-started',
@@ -215,15 +216,15 @@ const sidebars = {
               label: 'Timelines',
               link: {
                 id: 'scheduling-and-constraints/procedural/timelines/introduction',
-                type: 'doc'
+                type: 'doc',
               },
               items: [
                 {
                   type: 'category',
-                  label: "Basics",
+                  label: 'Basics',
                   link: {
                     id: 'scheduling-and-constraints/procedural/timelines/basics/introduction',
-                    type: 'doc'
+                    type: 'doc',
                   },
                   items: [
                     'scheduling-and-constraints/procedural/timelines/basics/profiles',
@@ -231,23 +232,23 @@ const sidebars = {
                     'scheduling-and-constraints/procedural/timelines/basics/activities',
                     'scheduling-and-constraints/procedural/timelines/basics/external-events',
                     'scheduling-and-constraints/procedural/timelines/basics/windows',
-                    'scheduling-and-constraints/procedural/timelines/basics/common-operations'
-                  ]
+                    'scheduling-and-constraints/procedural/timelines/basics/common-operations',
+                  ],
                 },
                 {
                   type: 'category',
-                  label: "Advanced",
+                  label: 'Advanced',
                   link: {
                     id: 'scheduling-and-constraints/procedural/timelines/advanced/introduction',
-                    type: 'doc'
+                    type: 'doc',
                   },
                   items: [
                     // 'scheduling-and-constraints/procedural/timelines/advanced/parallel-profiles',
                     // 'scheduling-and-constraints/procedural/timelines/advanced/custom-operations',
                     // 'scheduling-and-constraints/procedural/timelines/advanced/custom-timelines'
-                  ]
-                }
-              ]
+                  ],
+                },
+              ],
             },
             'scheduling-and-constraints/procedural/plan-and-sim-results',
             'scheduling-and-constraints/procedural/constraints',
@@ -256,22 +257,20 @@ const sidebars = {
               label: 'Scheduling',
               link: {
                 id: 'scheduling-and-constraints/procedural/scheduling/introduction',
-                type: 'doc'
+                type: 'doc',
               },
-              items: [
-                'scheduling-and-constraints/procedural/scheduling/examples'
-              ]
+              items: ['scheduling-and-constraints/procedural/scheduling/examples'],
             },
             'scheduling-and-constraints/procedural/parameters-and-invocations',
             // 'scheduling-and-constraints/procedural/running-externally'
-          ]
+          ],
         },
         {
           type: 'category',
           label: 'Declarative',
           link: {
             id: 'scheduling-and-constraints/declarative/introduction',
-            type: 'doc'
+            type: 'doc',
           },
           items: [
             {
@@ -310,10 +309,10 @@ const sidebars = {
                 },
               ],
             },
-          ]
+          ],
         },
-        'scheduling-and-constraints/execution'
-      ]
+        'scheduling-and-constraints/execution',
+      ],
     },
     {
       type: 'category',
