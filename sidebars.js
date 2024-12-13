@@ -31,6 +31,7 @@ const sidebars = {
         'api/examples/activity-presets',
         'api/examples/advanced-extensions',
         'api/examples/tags',
+        'api/examples/external-events',
       ],
     },
   ],
